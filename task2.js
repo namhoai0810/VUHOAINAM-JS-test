@@ -1,11 +1,11 @@
 let canvas = document.querySelector('canvas');
 let ctx = canvas.getContext('2d');
 
-let x = 50;
-let y = 60;
-let width = 100;
-let height = 75;
-let color = 'blue';
+let x = 60;
+let y = 80;
+let width = 120;
+let height = 70;
+let color = 'red';
 
 function drawSquare(x, y, width, height, color) {
   ctx.fillStyle = 'white';
